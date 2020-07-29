@@ -1,0 +1,31 @@
+name: Build README
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+	schedule:
+		- cron: '0 8 * * *'
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Set up Go 1.x
+      uses: actions/setup-go@v2
+      with:
+        go-version: ^1.13
+      id: go
+
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v2
+
+    - name: Run
+      run: go run buildreadme.go
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3.0.0
