@@ -21,7 +21,7 @@ const (
 	stravaURL    = "https://strava.com/athletes/raywonkari"
 
 	readmeHeader     = "# Hi, I'm [Raywon](https://raywonkari.com) :wave:\n"
-	readmeHowItWorks = "[How it works](./HOW_IT_WORKS.md)\n"
+	readmeHowItWorks = "[How it works](https://github.com/raywonkari/raywonkari/blob/master/HOW_IT_WORKS.md)\n"
 	readmeFooter     = "<a href='https://github.com/raywonkari/raywonkari/actions'><img src='https://github.com/raywonkari/raywonkari/workflows/Build%20README/badge.svg' alt='Build README'></a>\n"
 	readmeFile       = "README.md"
 )
