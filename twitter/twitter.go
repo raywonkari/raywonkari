@@ -12,7 +12,7 @@ func Generate(fileName, URL string) {
 	// Create an empty file, or clear the contents of an existing file.
 	ioutil.WriteFile(fileName, []byte(""), 0644)
 
-	writeToFile(fileName, "# Check out my tweets ![logo](./logo/twitter.png)\n")
+	writeToFile(fileName, "# Check out my tweets ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/twitter.png)\n")
 
 	writeToFile(fileName, "* https://twitter.com/raywonkari\n")
 	writeToFile(fileName, "* I have applied for a developer account in twitter.\n")

@@ -6,11 +6,11 @@
 * [Infrastructure as Code in Azure](https://raywontalks.com/iac-in-azure/) - July 14, 2020
 * [Infrastructure as Code in AWS](https://raywontalks.com/iac-in-aws/) - July 13, 2020
 * [Contact Form using API GW, Lambda & SES](https://raywontalks.com/contact-form-aws/) - June 19, 2020
-# Check out my tweets ![logo](./logo/twitter.png)
+# Check out my tweets ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/twitter.png)
 * https://twitter.com/raywonkari
 * I have applied for a developer account in twitter.
 * TODO: Once the account is approved, my plan is to embed my latest tweets here.
-# Check out my activities on strava ![logo](./logo/strava.png)
+# Check out my activities on strava ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/strava.png)
 * https://strava.com/athletes/raywonkari
 * I recently started running and cycling.
 * At work, my colleagues used to form a team, and go out running every week, also some used to bike to work. I got inspired from them and took some time to prepare and get started.
