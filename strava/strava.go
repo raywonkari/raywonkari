@@ -18,6 +18,7 @@ func Generate(fileName, URL string) {
 	writeToFile(fileName, "* I recently started running and cycling.\n")
 	writeToFile(fileName, "* At work, my colleagues used to form a team, and go out running every week, also some used to bike to work. I got inspired from them and took some time to prepare and get started.\n")
 	writeToFile(fileName, "* My only moto with this is to inspire at least a few people to do so.\n")
+	writeToFile(fileName, "* TODO: Embed latest activities here, instead of static data.\n")
 
 }
 
