@@ -26,7 +26,7 @@ type token struct {
 }
 
 //Generate func writes details about my Twitter profile
-func Generate(fileName, URL string) {
+func Generate(fileName string) {
 
 	// Get statistics from strava API & Extract the data
 	stravaData := getStravaData()

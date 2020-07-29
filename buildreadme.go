@@ -18,7 +18,6 @@ const (
 	twitterURL    = "https://twitter.com/raywonkari"
 
 	stravaMdFile = "strava.md"
-	stravaURL    = "https://strava.com/athletes/raywonkari"
 
 	readmeHeader     = "# Hi, I'm [Raywon](https://raywonkari.com) :wave:\n"
 	readmeHowItWorks = "[How it works](https://github.com/raywonkari/raywonkari/blob/master/HOW_IT_WORKS.md)\n"
@@ -33,7 +32,7 @@ func main() {
 
 	// generate strava.md
 	fmt.Println("Generating Strava MD File")
-	strava.Generate(stravaMdFile, stravaURL)
+	strava.Generate(stravaMdFile)
 
 	// generate blog.md
 	fmt.Println("Generating Blog MD File")
