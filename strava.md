@@ -1,6 +1,9 @@
 # Check out my activities on strava ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/strava.png)
 * https://strava.com/athletes/raywonkari
 * I recently started running and cycling.
-* At work, my colleagues used to form a team, and go out running every week, also some used to bike to work. I got inspired from them and took some time to prepare and get started.
-* My only moto with this is to inspire at least a few people to do so.
-* TODO: Embed latest activities here, instead of static data.
+* Total cycling distance from this year: 118.83 km
+* Total running distance from this year: 94.16 km
+* All time cycling distance: 118.83 km
+* All time running distance: 94.16 km
+* My moto with this is to inspire at least a few people to start exercising.
+* TODO: refresh token is hard coded currently. Make it dynamic. Strava can change it anytime.
