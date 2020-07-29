@@ -26,6 +26,10 @@ jobs:
 
     - name: Run
       run: go run buildreadme.go
+      env:
+        STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+        STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+        STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3.0.0
