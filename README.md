@@ -20,6 +20,6 @@
 * My moto with this is to inspire at least a few people to start exercising.
 * TODO: refresh token is hard coded currently. Make it dynamic. Strava can change it anytime.
 
-[How it works](./HOW_IT_WORKS.md)
+[How it works](https://github.com/raywonkari/raywonkari/blob/master/HOW_IT_WORKS.md)
 
 <a href='https://github.com/raywonkari/raywonkari/actions'><img src='https://github.com/raywonkari/raywonkari/workflows/Build%20README/badge.svg' alt='Build README'></a>
