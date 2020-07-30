@@ -25,7 +25,7 @@ type token struct {
 	AccessToken string `json:"access_token"`
 }
 
-//Generate func writes details about my Twitter profile
+//Generate func writes details about my strava activities
 func Generate(fileName string) {
 
 	// Get statistics from strava API & Extract the data
@@ -61,14 +61,14 @@ func Generate(fileName string) {
 
 func writeToFile(fileName, data string) {
 
-	// Open twitter md file
+	// Open strava md file
 	openfile, err := os.OpenFile(fileName, os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		fmt.Printf("Failed to open file: %v", err)
 	}
 	defer openfile.Close()
 
-	// Write to twitter md file, if err, log the error
+	// Write to strava md file, if err, log the error
 	if _, err := openfile.WriteString(data); err != nil {
 		fmt.Printf("Failed to write to file: %v", err)
 	}
