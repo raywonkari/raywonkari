@@ -18,7 +18,6 @@
 * All time cycling distance: 118.83 km
 * All time running distance: 94.16 km
 * My moto with this is to inspire at least a few people to start exercising.
-* TODO: refresh token is hard coded currently. Make it dynamic. Strava can change it anytime.
 
 [How it works](https://github.com/raywonkari/raywonkari/blob/master/HOW_IT_WORKS.md)
 
