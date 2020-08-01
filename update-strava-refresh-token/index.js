@@ -14,7 +14,7 @@ const token = process.env.MY_GITHUB_AUTH
 // request details to get the public key of the repo
 const options = {
 	'method': 'GET',
-	'url': 'https://api.github.com/repos/raywonkari/build-readme/actions/secrets/public-key',
+	'url': 'https://api.github.com/repos/raywonkari/raywonkari/actions/secrets/public-key',
 	'headers': {
 		'Accept': 'application/vnd.github.v3+json',
 		'Authorization': `${token}`,
@@ -43,7 +43,7 @@ request(options, function (error, response) {
 	// request details for updating GH secret
 	const newoptions = {
 		'method': 'PUT',
-		'url': 'https://api.github.com/repos/raywonkari/build-readme/actions/secrets/STRAVA_REFRESH_TOKEN',
+		'url': 'https://api.github.com/repos/raywonkari/raywonkari/actions/secrets/STRAVA_REFRESH_TOKEN',
 		'body': `{
           'encrypted_value': ${encrypted},
           'key_id': ${github.key_id}
