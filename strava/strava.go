@@ -57,7 +57,6 @@ func Generate(fileName string) {
 	writeToFile(fileName, allTimeCycling)
 	writeToFile(fileName, allTimeRunning)
 	writeToFile(fileName, "* My moto with this is to inspire at least a few people to start exercising.\n")
-	writeToFile(fileName, "* TODO: refresh token is hard coded currently. Make it dynamic. Strava can change it anytime.\n")
 }
 
 func writeToFile(fileName, data string) {
