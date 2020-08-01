@@ -22,7 +22,8 @@ type activity struct {
 }
 
 type token struct {
-	AccessToken string `json:"access_token"`
+	AccessToken  string `json:"access_token"`
+	RefreshToken string `json:"refresh_token"`
 }
 
 //Generate func writes details about my strava activities
@@ -145,6 +146,14 @@ func getAccessToken() string {
 	// Extract access token
 	var token token
 	json.Unmarshal(body, &token)
+
+	// write refresh_token value to a file, so we can update it as a github secret in the later GH actions step.
+	// GitHub requires using LibSodium package to encrypt values, and using that lib within Golang seems to be a hassle, therefore I am skipping it but will use nodejs instead.
+	// Create an empty file, or clear the contents of an existing file.
+	refreshTokenFileName := "strava_refresh_token"
+	ioutil.WriteFile(refreshTokenFileName, []byte(""), 0644)
+	writeToFile(refreshTokenFileName, token.RefreshToken)
+
 	return string(token.AccessToken)
 }
 

@@ -31,5 +31,13 @@ jobs:
         STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
         STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
 
+    - name: Setup Node env
+      uses: actions/setup-node@v2.1.1
+
+    - name: Update refresh token
+      run: cd update-strava-refresh-token && npm install && node index.js
+      env:
+        MY_GITHUB_AUTH: ${{ secrets.MY_GITHUB_AUTH }}
+      
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3.0.0
