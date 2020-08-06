@@ -5,9 +5,6 @@ const value = fs.readFileSync('../strava_refresh_token', 'utf8')
 // delete file, so we don't expose the token in the next PR step in GitHub Actions
 fs.unlinkSync('../strava_refresh_token')
 
-// Get GitHub Repo Public Key
-const request = require('request');
-
 // GitHub credentials. I am using the access token.
 const token = process.env.MY_GITHUB_AUTH
 
@@ -21,6 +18,9 @@ const options = {
 		'User-Agent': 'nodejs-app-get',
 	}
 };
+
+// GET Public Key
+const request = require('request');
 
 request(options, function (error, response) {
 	if (error) console.log(error)
@@ -55,6 +55,7 @@ request(options, function (error, response) {
 		},
 	};
 
+	// PUT secret
 	request(newoptions, function (error, response) {
 		if (error) console.log(error)
 	});
