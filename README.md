@@ -8,8 +8,7 @@
 * [Infrastructure as Code in AWS](https://raywontalks.com/iac-in-aws/) - July 13, 2020
 # Check out my tweets ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/twitter.png)
 * https://twitter.com/raywonkari
-* I have applied for a developer account in twitter.
-* TODO: Once the account is approved, my plan is to embed my latest tweets here.
+* TODO: My plan is to embed my latest tweets here.
 # Check out my activities on strava ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/strava.png)
 * https://strava.com/athletes/raywonkari
 * I recently started running and cycling.
