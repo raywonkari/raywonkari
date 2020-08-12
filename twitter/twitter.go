@@ -15,8 +15,7 @@ func Generate(fileName, URL string) {
 	writeToFile(fileName, "# Check out my tweets ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/twitter.png)\n")
 
 	writeToFile(fileName, "* https://twitter.com/raywonkari\n")
-	writeToFile(fileName, "* I have applied for a developer account in twitter.\n")
-	writeToFile(fileName, "* TODO: Once the account is approved, my plan is to embed my latest tweets here.\n")
+	writeToFile(fileName, "* TODO: My plan is to embed my latest tweets here.\n")
 
 }
 
