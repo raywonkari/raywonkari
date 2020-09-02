@@ -2,7 +2,7 @@
 * https://strava.com/athletes/raywonkari
 * I recently started running and cycling.
 * Total cycling distance from this year: 199.91 km
-* Total running distance from this year: 160.93 km
+* Total running distance from this year: 165.96 km
 * All time cycling distance: 199.91 km
-* All time running distance: 160.93 km
+* All time running distance: 165.96 km
 * My moto with this is to inspire at least a few people to start exercising.
