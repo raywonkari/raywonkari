@@ -12,10 +12,10 @@
 # Check out my activities on strava ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/strava.png)
 * https://strava.com/athletes/raywonkari
 * I recently started running and cycling.
-* Total cycling distance from this year: 212.75 km
-* Total running distance from this year: 165.96 km
-* All time cycling distance: 212.75 km
-* All time running distance: 165.96 km
+* Total cycling distance from this year: 225.78 km
+* Total running distance from this year: 170.07 km
+* All time cycling distance: 225.78 km
+* All time running distance: 170.07 km
 * My moto with this is to inspire at least a few people to start exercising.
 
 [How it works](https://github.com/raywonkari/raywonkari/blob/master/HOW_IT_WORKS.md)
