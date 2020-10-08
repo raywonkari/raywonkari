@@ -39,6 +39,12 @@ jobs:
       run: cd update-strava-refresh-token && npm install && node index.js
       env:
         MY_GITHUB_AUTH: ${{ secrets.MY_GITHUB_AUTH }}
-      
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3.0.0
+    
+    - name: Commit & Push
+      run: |-
+        git diff
+        git config --global user.email "its@raywonkari.com"
+        git config --global user.name "Raywon Kari"
+        git add -A
+        git commit -m "Update" || exit 0
+        git push
