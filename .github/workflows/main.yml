@@ -43,8 +43,8 @@ jobs:
     - name: Commit & Push
       run: |-
         git diff
-        git config --global user.email "its@raywonkari.com"
-        git config --global user.name "Raywon Kari"
+        git config --global user.email "actions@users.noreply.github.com"
+        git config --global user.name "GH Actions Bot"
         git add -A
-        git commit -m "Update" || exit 0
+        git commit -m "Auto commit from GH Actions" || exit 0
         git push
