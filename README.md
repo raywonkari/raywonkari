@@ -1,11 +1,11 @@
 # Hi, I'm [Raywon](https://raywonkari.com) :wave:
 
 # Latest Articles on my [blog](https://raywontalks.com) :black_nib: :file_folder: :paperclip:
+* [raywontalks.com website template](https://raywontalks.com/blog-template/) - January 31, 2021
 * [How to use HTTPS module in Node.js programs?](https://raywontalks.com/nodejs-https/) - December 26, 2020
 * [What is Serverless?](https://raywontalks.com/serverless/) - December 19, 2020
 * [Creating GitHub Profile README](https://raywontalks.com/github-profile-readme/) - July 29, 2020
 * [Receiving daily AWS costs in Slack](https://raywontalks.com/aws-costs-in-slack/) - July 23, 2020
-* [Infrastructure as Code in Google Cloud](https://raywontalks.com/iac-in-google-cloud/) - July 15, 2020
 # Check out my tweets ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/twitter.png)
 * https://twitter.com/raywonkari
 * TODO: My plan is to embed my latest tweets here.
