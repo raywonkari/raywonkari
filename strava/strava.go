@@ -51,7 +51,6 @@ func Generate(fileName string) {
 	writeToFile(fileName, "# Check out my activities on strava ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/strava.png)\n")
 
 	writeToFile(fileName, "* https://strava.com/athletes/raywonkari\n")
-	writeToFile(fileName, "* I recently started running and cycling.\n")
 	writeToFile(fileName, yearCycling)
 	writeToFile(fileName, yearRunning)
 	writeToFile(fileName, allTimeCycling)
