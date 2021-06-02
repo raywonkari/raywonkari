@@ -11,7 +11,6 @@
 * TODO: My plan is to embed my latest tweets here.
 # Check out my activities on strava ![logo](https://github.com/raywonkari/raywonkari/blob/master/logo/strava.png)
 * https://strava.com/athletes/raywonkari
-* I recently started running and cycling.
 * Total cycling distance from this year: 24.98 km
 * Total running distance from this year: 51.69 km
 * All time cycling distance: 437.92 km
